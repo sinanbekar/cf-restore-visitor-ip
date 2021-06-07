@@ -46,7 +46,7 @@ $ipRanges = ['173.245.48.0/20','103.21.244.0/22','103.22.200.0/22'...];
 $cf = \SinanBekar\Cloudflare\Operations::getInstance();
 $cf->setCfIpRanges($ipRanges);
 
-$ipAddress = $cf->getClientIpAdress(); // Or \SinanBekar\Cloudflare\Restore::getIp();
+$ipAddress = $cf->getClientIpAddress(); // Or \SinanBekar\Cloudflare\Restore::getIp();
 ```
 Other Methods:
 ```php
