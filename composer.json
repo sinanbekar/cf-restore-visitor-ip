@@ -1,0 +1,18 @@
+{
+    "name": "sinanbekar/cf-restore-visitor-ip",
+    "description": "Cloudflare Restore Original Visitor IP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sinan Bekar",
+            "email": "sinanbekar.work@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {"SinanBekar\\Cloudflare\\": "src/"}
+    }
+}
