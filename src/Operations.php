@@ -78,7 +78,7 @@ class Operations
      * Checks HTTP Headers for prevent spoofing.
      * @return bool
      */
-    protected function isCorrectCfHeaders()
+    public function isCorrectCfHeaders()
     {
         if (!isset($_SERVER['HTTP_CF_CONNECTING_IP'])) {
             return false;
